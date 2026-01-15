@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pngwing.com (1)" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnProyectos" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="Correo Electronico" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Contraseña" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="btnAccederLogin" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="linkLabel1" xml:space="preserve">
+    <value>Don't have an account? Sign up</value>
+  </data>
+  <data name="btnCambiarIdioma" xml:space="preserve">
+    <value>Change Language</value>
+  </data>
+  <data name="CompletarDatos" xml:space="preserve">
+    <value>Please complete all the fields</value>
+  </data>
+  <data name="UsuarioNoEncontrado" xml:space="preserve">
+    <value>
+The user entered is not registered</value>
+  </data>
+  <data name="OfrecerRegistro" xml:space="preserve">
+    <value>Do you want to register?</value>
+  </data>
+  <data name="Advertencia" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ContraseñaIncorrecta" xml:space="preserve">
+    <value>Incorrect password</value>
+  </data>
+  <data name="ErrorTipoUsuario" xml:space="preserve">
+    <value>User type not supported</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Apellido" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="RegistroExitoso" xml:space="preserve">
+    <value>Successfully registered</value>
+  </data>
+  <data name="ErrorDni" xml:space="preserve">
+    <value>Invalid ID</value>
+  </data>
+  <data name="ErrorCorreoRegistrado" xml:space="preserve">
+    <value>This email address is already registered</value>
+  </data>
+  <data name="btnRegistrarse" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Bienvenido" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="lblNombreApellido" xml:space="preserve">
+    <value>Name Surname</value>
+  </data>
+  <data name="btnMisProyectos" xml:space="preserve">
+    <value>My Projects</value>
+  </data>
+  <data name="btnCrearProyectos" xml:space="preserve">
+    <value>Create Project</value>
+  </data>
+  <data name="btnGestionarProyectos" xml:space="preserve">
+    <value>Manage Projects</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="ConfirmarCierreSesion" xml:space="preserve">
+    <value>Are you sure you want to log out?</value>
+  </data>
+  <data name="ContinuarCierreSesion" xml:space="preserve">
+    <value>If you continue, you will be logged out.</value>
+  </data>
+  <data name="NoNotificaciones" xml:space="preserve">
+    <value>No Notifications</value>
+  </data>
+  <data name="FaltaAnalistaSolicitante" xml:space="preserve">
+    <value>including at least one analyst and one applicant.</value>
+  </data>
+  <data name="ProyectoCreado" xml:space="preserve">
+    <value>
+Project created successfully</value>
+  </data>
+  <data name="ErrorFormato" xml:space="preserve">
+    <value>The input format is invalid. Please check the data entered</value>
+  </data>
+  <data name="NombreProyecto" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="IdProyecto" xml:space="preserve">
+    <value>Project ID</value>
+  </data>
+  <data name="Lenguaje" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Plataforma" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="FechaSuscripcion" xml:space="preserve">
+    <value>Subscription date</value>
+  </data>
+  <data name="PosibleFechaEntrega" xml:space="preserve">
+    <value>possible delivery date
+</value>
+  </data>
+  <data name="Costo" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="ClienteSolicitante" xml:space="preserve">
+    <value>Requesting client</value>
+  </data>
+  <data name="Analistas" xml:space="preserve">
+    <value>Analysts</value>
+  </data>
+  <data name="Desarrolladores" xml:space="preserve">
+    <value>Developers</value>
+  </data>
+  <data name="AgregarUsuario" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="EliminarUsuario" xml:space="preserve">
+    <value>Delete Selected User</value>
+  </data>
+  <data name="ModificarUsuario" xml:space="preserve">
+    <value>Modify Selected User</value>
+  </data>
+  <data name="CambiarContraseña" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ErrorDniCorreo" xml:space="preserve">
+    <value>The ID or email address is already registered</value>
+  </data>
+  <data name="ErrorSeleccionUsuario" xml:space="preserve">
+    <value>You must select a user</value>
+  </data>
+  <data name="ConfirmarEliminacionU" xml:space="preserve">
+    <value>Are you sure you want to delete this user?</value>
+  </data>
+  <data name="AvisoCambio" xml:space="preserve">
+    <value>This change is irreversible</value>
+  </data>
+  <data name="ConfirmarContinuacion" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="AvisoUProyectosActivos" xml:space="preserve">
+    <value>This user participates in active projects</value>
+  </data>
+  <data name="AvisoUltimoAnalista" xml:space="preserve">
+    <value>The user could not be deleted because he or she is the last analyst assigned to an active project.</value>
+  </data>
+  <data name="ErrorRol" xml:space="preserve">
+    <value>Select a valid role</value>
+  </data>
+  <data name="ErrorContraAdmin" xml:space="preserve">
+    <value>Cannot change another administrator's password</value>
+  </data>
+  <data name="IngresarContra" xml:space="preserve">
+    <value>Enter a new password</value>
+  </data>
+  <data name="CambioContra" xml:space="preserve">
+    <value>Password change</value>
+  </data>
+  <data name="CambioContraExitoso" xml:space="preserve">
+    <value>Password updated successfully</value>
+  </data>
+  <data name="btnTareas" xml:space="preserve">
+    <value>Add Tasks</value>
+  </data>
+  <data name="btnAgregarUsuario" xml:space="preserve">
+    <value>Add Collaborators</value>
+  </data>
+  <data name="btnEliminarUsuarios" xml:space="preserve">
+    <value>Delete Collaborators</value>
+  </data>
+  <data name="btnModificarCaract" xml:space="preserve">
+    <value>Modify Features</value>
+  </data>
+  <data name="AgregarExitoso" xml:space="preserve">
+    <value>The user has been added as a collaborator</value>
+  </data>
+  <data name="AgregarUsuariosExitoso" xml:space="preserve">
+    <value>Users have been added as collaborators</value>
+  </data>
+  <data name="TareaAsignada" xml:space="preserve">
+    <value>Task assigned successfully</value>
+  </data>
+  <data name="NoPuedeEliminar" xml:space="preserve">
+    <value>Can't be removed</value>
+  </data>
+  <data name="ElUsuario" xml:space="preserve">
+    <value>The User</value>
+  </data>
+  <data name="UltimoAnalista" xml:space="preserve">
+    <value>is the last analyst assigned to the project</value>
+  </data>
+  <data name="ErrorPermisos" xml:space="preserve">
+    <value>You do not have permissions to delete this user.</value>
+  </data>
+  <data name="EliminarCorrecto" xml:space="preserve">
+    <value>The selected user has been successfully deleted</value>
+  </data>
+  <data name="NotificarUsuariosNoEliminados" xml:space="preserve">
+    <value>The following users have not been deleted because you do not have the necessary permissions</value>
+  </data>
+  <data name="EliminarVariosCorrecto" xml:space="preserve">
+    <value>The selected users have been successfully deleted</value>
+  </data>
+  <data name="btnEliminarNotis" xml:space="preserve">
+    <value>Delete notification</value>
+  </data>
+  <data name="MiPerfil" xml:space="preserve">
+    <value>My profile</value>
+  </data>
+  <data name="ErrorSeleccionNotificacion" xml:space="preserve">
+    <value>Select a notification to mark as read</value>
+  </data>
+  <data name="TuProyecto" xml:space="preserve">
+    <value>Your project</value>
+  </data>
+  <data name="FueCreado" xml:space="preserve">
+    <value>was Created</value>
+  </data>
+  <data name="FuisteAsignado" xml:space="preserve">
+    <value>You were assigned to the project</value>
+  </data>
+  <data name="Proyecto" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="TareaAsignadaTexto" xml:space="preserve">
+    <value>Assigned task</value>
+  </data>
+  <data name="icon_cliente" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="icon_empleado" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="icon_ingeniero" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="icon_ingeniero2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BtnDesplegableAgregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnAddDepartamento" xml:space="preserve">
+    <value>Departament</value>
+  </data>
+  <data name="btnAddEquipo" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="btnAddEmpleado" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="btnModificarProyectos" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="btnEliminarProyectos" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnPagos" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="btnSeleccionarRol" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Empleado" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Ingeniero" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="DescEmpleado" xml:space="preserve">
+    <value>Manage tasks, upload reports, and track progress</value>
+  </data>
+  <data name="DescCliente" xml:space="preserve">
+    <value>Request services and check the status of your projects</value>
+  </data>
+  <data name="DescIngeniero" xml:space="preserve">
+    <value>Designs projects and coordinates technical teams</value>
+  </data>
+  <data name="btnExportar" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="btnFiltrar" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="lblDesde" xml:space="preserve">
+    <value>From:</value>
+  </data>
+</root>

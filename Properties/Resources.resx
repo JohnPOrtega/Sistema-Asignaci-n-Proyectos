@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="inicio sesion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio sesion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximize-5907715_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize-5907715_1920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_5907714_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize-5907715_1920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log-out-2355227_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log-out-2355227_1920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnProyectos" xml:space="preserve">
+    <value>Proyectos</value>
+  </data>
+  <data name="Correo Electronico" xml:space="preserve">
+    <value>Correo Electronico</value>
+  </data>
+  <data name="Contraseña" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="btnAccederLogin" xml:space="preserve">
+    <value>Acceder</value>
+  </data>
+  <data name="linkLabel1" xml:space="preserve">
+    <value>¿No tiene cuenta? Registrarse</value>
+  </data>
+  <data name="btnCambiarIdioma" xml:space="preserve">
+    <value>Cambiar Idioma</value>
+  </data>
+  <data name="CompletarDatos" xml:space="preserve">
+    <value>Por favor, completar todos los campos</value>
+  </data>
+  <data name="UsuarioNoEncontrado" xml:space="preserve">
+    <value>El usuario ingresado no se encuentra registrado</value>
+  </data>
+  <data name="OfrecerRegistro" xml:space="preserve">
+    <value>Desea registrarse?</value>
+  </data>
+  <data name="Advertencia" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="ContraseñaIncorrecta" xml:space="preserve">
+    <value>Contraseña incorrecta</value>
+  </data>
+  <data name="ErrorTipoUsuario" xml:space="preserve">
+    <value>Tipo de usuario no soportado</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Apellido" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="RegistroExitoso" xml:space="preserve">
+    <value>Registrado Exitosamente</value>
+  </data>
+  <data name="ErrorDni" xml:space="preserve">
+    <value>DNI inválido</value>
+  </data>
+  <data name="ErrorCorreoRegistrado" xml:space="preserve">
+    <value>Este Correo ya se encuentra registrado</value>
+  </data>
+  <data name="btnRegistrarse" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="Bienvenido" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="lblNombreApellido" xml:space="preserve">
+    <value>Nombre Apellido</value>
+  </data>
+  <data name="btnMisProyectos" xml:space="preserve">
+    <value>Mis proyectos</value>
+  </data>
+  <data name="btnCrearProyectos" xml:space="preserve">
+    <value>Crear Proyecto</value>
+  </data>
+  <data name="btnGestionarProyectos" xml:space="preserve">
+    <value>Gestionar Proyectos</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="ConfirmarCierreSesion" xml:space="preserve">
+    <value>¿Esta seguro de cerrar la sesión?</value>
+  </data>
+  <data name="ContinuarCierreSesion" xml:space="preserve">
+    <value>Si continúa, abandonará la sesión</value>
+  </data>
+  <data name="NoNotificaciones" xml:space="preserve">
+    <value>Sin Notificaciones</value>
+  </data>
+  <data name="FaltaAnalistaSolicitante" xml:space="preserve">
+    <value>incluyendo al menos un analista y un solicitante.</value>
+  </data>
+  <data name="ProyectoCreado" xml:space="preserve">
+    <value>Proyecto creado exitosamente</value>
+  </data>
+  <data name="ErrorFormato" xml:space="preserve">
+    <value>El formato de entrada no es válido. Verificá los datos ingresados</value>
+  </data>
+  <data name="NombreProyecto" xml:space="preserve">
+    <value>Nombre del Proyecto</value>
+  </data>
+  <data name="IdProyecto" xml:space="preserve">
+    <value>Id del Proyecto</value>
+  </data>
+  <data name="Lenguaje" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="Plataforma" xml:space="preserve">
+    <value>Plataforma</value>
+  </data>
+  <data name="FechaSuscripcion" xml:space="preserve">
+    <value>Fecha de Suscripcion</value>
+  </data>
+  <data name="PosibleFechaEntrega" xml:space="preserve">
+    <value>Posible Fecha de Entrega</value>
+  </data>
+  <data name="Costo" xml:space="preserve">
+    <value>Costo</value>
+  </data>
+  <data name="ClienteSolicitante" xml:space="preserve">
+    <value>Cliente Solicitante</value>
+  </data>
+  <data name="Analistas" xml:space="preserve">
+    <value>Analistas</value>
+  </data>
+  <data name="Desarrolladores" xml:space="preserve">
+    <value>Desarrolladores</value>
+  </data>
+  <data name="AgregarUsuario" xml:space="preserve">
+    <value>Agregar Usuario</value>
+  </data>
+  <data name="EliminarUsuario" xml:space="preserve">
+    <value>Eliminar Usuario Seleccionado</value>
+  </data>
+  <data name="ModificarUsuario" xml:space="preserve">
+    <value>Modificar Usuario Seleccionado</value>
+  </data>
+  <data name="CambiarContraseña" xml:space="preserve">
+    <value>Cambiar Contraseña</value>
+  </data>
+  <data name="ErrorDniCorreo" xml:space="preserve">
+    <value>El DNI o el Correo electronico ya estan registrados</value>
+  </data>
+  <data name="ErrorSeleccionUsuario" xml:space="preserve">
+    <value>Debe seleccionar un usuario</value>
+  </data>
+  <data name="ConfirmarEliminacionU" xml:space="preserve">
+    <value>¿Esta seguro de querer eliminar a este usuario?</value>
+  </data>
+  <data name="AvisoCambio" xml:space="preserve">
+    <value>Este cambio es irreversible</value>
+  </data>
+  <data name="ConfirmarContinuacion" xml:space="preserve">
+    <value>¿Desea Continuar?</value>
+  </data>
+  <data name="AvisoUProyectosActivos" xml:space="preserve">
+    <value>Este usuario participa de proyectos activos</value>
+  </data>
+  <data name="AvisoUltimoAnalista" xml:space="preserve">
+    <value>No se ha podido eliminar al usuario debido a que es el ultimo analista asignado en un proyecto activo</value>
+  </data>
+  <data name="ErrorRol" xml:space="preserve">
+    <value>Selecciona un rol valido</value>
+  </data>
+  <data name="ErrorContraAdmin" xml:space="preserve">
+    <value>No se puede cambiar la contraseña de otro administrador</value>
+  </data>
+  <data name="IngresarContra" xml:space="preserve">
+    <value>Ingrese una nueva contraseña</value>
+  </data>
+  <data name="CambioContra" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="CambioContraExitoso" xml:space="preserve">
+    <value>Contraseña actualizada correctamente</value>
+  </data>
+  <data name="btnTareas" xml:space="preserve">
+    <value>Asignar Tareas</value>
+  </data>
+  <data name="btnAgregarUsuario" xml:space="preserve">
+    <value>Agregar Colaboradores</value>
+  </data>
+  <data name="btnEliminarUsuarios" xml:space="preserve">
+    <value>Eliminar Colaboradores</value>
+  </data>
+  <data name="btnModificarCaract" xml:space="preserve">
+    <value>Modificar Caracteristicas</value>
+  </data>
+  <data name="AgregarExitoso" xml:space="preserve">
+    <value>Se ha agregado al usuario como colaborador</value>
+  </data>
+  <data name="AgregarUsuariosExitoso" xml:space="preserve">
+    <value>Se han agregado los usuarios como colaboradores</value>
+  </data>
+  <data name="TareaAsignada" xml:space="preserve">
+    <value>Tarea asignada exitosamente</value>
+  </data>
+  <data name="NoPuedeEliminar" xml:space="preserve">
+    <value>No puede ser eliminado</value>
+  </data>
+  <data name="ElUsuario" xml:space="preserve">
+    <value>El usuario</value>
+  </data>
+  <data name="UltimoAnalista" xml:space="preserve">
+    <value>es el ultimo analista asignado al proyecto</value>
+  </data>
+  <data name="ErrorPermisos" xml:space="preserve">
+    <value>No posees los permisos para eliminar a este usuario</value>
+  </data>
+  <data name="EliminarCorrecto" xml:space="preserve">
+    <value>Se ha eliminado correctamente el usuario seleccionado</value>
+  </data>
+  <data name="NotificarUsuariosNoEliminados" xml:space="preserve">
+    <value>Los siguientes usuarios no han sido eliminados debido a que no posees los permisos necesarios</value>
+  </data>
+  <data name="EliminarVariosCorrecto" xml:space="preserve">
+    <value>Se han eliminado correctamente los usuarios seleccionados</value>
+  </data>
+  <data name="btnEliminarNotis" xml:space="preserve">
+    <value>Eliminar Notificacion</value>
+  </data>
+  <data name="MiPerfil" xml:space="preserve">
+    <value>Mi perfil</value>
+  </data>
+  <data name="ErrorSeleccionNotificacion" xml:space="preserve">
+    <value>Selecciona una notificación para marcar como leída</value>
+  </data>
+  <data name="TuProyecto" xml:space="preserve">
+    <value>Tu Proyecto</value>
+  </data>
+  <data name="FueCreado" xml:space="preserve">
+    <value>Fue Creado</value>
+  </data>
+  <data name="FuisteAsignado" xml:space="preserve">
+    <value>Fuiste asignado al proyecto</value>
+  </data>
+  <data name="Proyecto" xml:space="preserve">
+    <value>Proyecto</value>
+  </data>
+  <data name="TareaAsignadaTexto" xml:space="preserve">
+    <value>Tarea Asignada</value>
+  </data>
+  <data name="icon_cliente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_cliente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_empleado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_empleado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_ingeniero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_ingeniero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_ingeniero2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_ingeniero2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnDesplegableAgregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnAddDepartamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="btnAddEquipo" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="btnAddEmpleado" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="btnModificarProyectos" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnEliminarProyectos" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnPagos" xml:space="preserve">
+    <value>Pagos</value>
+  </data>
+  <data name="btnSeleccionarRol" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="Empleado" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Ingeniero" xml:space="preserve">
+    <value>Ingeniero</value>
+  </data>
+  <data name="DescEmpleado" xml:space="preserve">
+    <value>Gestiona tareas, carga reportes y sigue el avance</value>
+  </data>
+  <data name="DescCliente" xml:space="preserve">
+    <value>Solicita servicios y revisa el estado de sus proyecto</value>
+  </data>
+  <data name="DescIngeniero" xml:space="preserve">
+    <value>Diseña proyectos y coordina equipos técnicos</value>
+  </data>
+  <data name="btnExportar" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="btnFiltrar" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="lblDesde" xml:space="preserve">
+    <value>Desde:</value>
+  </data>
+</root>

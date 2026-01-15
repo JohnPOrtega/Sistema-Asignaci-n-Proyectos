@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\Creador de contraseña.exe.config
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\Creador de contraseña.exe
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\Creador de contraseña.pdb
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\Seguridad.dll
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\BE.dll
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\Seguridad.pdb
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\bin\Debug\BE.pdb
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\obj\Debug\CrearContra.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\obj\Debug\CrearContra.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\obj\Debug\CrearCon.09B9E099.Up2Date
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\obj\Debug\Creador de contraseña.exe
+C:\Users\pc\Documents\ProyectoCAPAS\Creador de contraseña\obj\Debug\Creador de contraseña.pdb
